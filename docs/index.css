@@ -1,0 +1,36 @@
+body {
+	background-color: #181a1b;
+    color: white;
+}
+.ocemutitle {
+	font-size: 4em;
+    font-family: Poppins, sans-serif;
+    font-weight: 900;
+}
+button.ocemudlbutton {
+	border: none;
+    border-radius: 9999em;
+    padding: 20px;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    background-color: white;
+    color: #181a1b;
+    transition: 1s;
+}
+button.ocemudlbutton:hover {
+	transition: 0.5s;
+    padding: 10px;
+    font-size: 21px;
+    font-weight: 900;
+    background-color: gray;
+    color: white;
+}
+button.ocemudlbutton:focus {
+	transition: 0.5s;
+    padding: 17px;
+    font-size: 15px;
+    font-weight: 300;
+    background-color: white;
+    color: black;
+}
